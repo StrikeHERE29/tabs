@@ -107,11 +107,14 @@ img{
 }
 
 .dirBtn{
-    padding: 10px 25px;
-    font-size: 60px;
+    padding: 10px 15px;
+    font-size: 40px;
     border: none;
-    background-color: transparent;
-    color: hsl(120, 41%, 23%);
+    letter-spacing: 2px;
     cursor: pointer;
+    border-radius: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: red;
 }
 
