@@ -38,7 +38,7 @@ img{
 }
 
 .about-center{
-    margin-left: 16rem;
+    margin-left: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,7 +54,7 @@ img{
 }   
 
 .board{
-    max-width: 300px;
+    max-width: 430px;
     display: none;
     margin-left: 1rem;
     letter-spacing: 1px;
@@ -75,7 +75,7 @@ img{
     letter-spacing: 3px;
 }
 
-.about{
+.about, .another-about{
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -88,3 +88,30 @@ img{
 .buttons.active{
     background-color: hsl(0, 100%, 100%);
 }
+
+.about-center{
+    display: none;
+}
+
+.about-center.active{
+    display: flex;
+}
+
+.direction-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 40px;
+    margin-left: 5rem;
+}
+
+.dirBtn{
+    padding: 10px 25px;
+    font-size: 60px;
+    border: none;
+    background-color: transparent;
+    color: hsl(120, 41%, 23%);
+    cursor: pointer;
+}
+
